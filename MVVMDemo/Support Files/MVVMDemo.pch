@@ -1,0 +1,38 @@
+//
+//  MVVMDemo.pch
+//  MVVMDemo
+//
+//  Created by njw on 2019/3/13.
+//  Copyright © 2019 njw. All rights reserved.
+//
+
+#ifndef MVVMDemo_pch
+#define MVVMDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MRCConstant.h"
+#import "MRCConfig.h"
+
+#import <ReactiveObjC.h>
+#import <YYKit/YYKit.h>
+#import <MBProgressHUD.h>
+#import <SSKeychain.h>
+#import <FMDB.h>
+#import <Mantle.h>
+#import <AFNetworking.h>
+#import <YTKNetwork.h>
+#import <SDWebImage/SDWebImage-umbrella.h>
+
+
+#import "MRCAppDelegate.h"
+#import "MRCViewModel.h"
+#import "SSKeychain+MRCUtil.h"
+#import "UIImage+MRCOcticons.h"
+#import "MRCUtil.h"
+#import "FMDatabaseQueue+MRCHelper.h"
+#import "MRCMemoryCache.h"
+#import "MRCViewModelServices.h"
+#import "MRCNavigationProtocol.h"
+
+#endif /* MVVMDemo_pch */
